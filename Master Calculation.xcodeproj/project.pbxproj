@@ -58,7 +58,6 @@
 		DA994F832AD7ABD000035399 = {
 			isa = PBXGroup;
 			children = (
-				DA994FC12AD802F400035399 /* aboutPage.swift */,
 				DA994F8E2AD7ABD000035399 /* Master Calculation */,
 				DA994F8D2AD7ABD000035399 /* Products */,
 			);
@@ -75,23 +74,48 @@
 		DA994F8E2AD7ABD000035399 /* Master Calculation */ = {
 			isa = PBXGroup;
 			children = (
-				DA994FAB2AD7C1E800035399 /* AppDelegate.swift */,
-				DA994FAD2AD7C1FD00035399 /* SceneDelegate.swift */,
-				DA994FA52AD7BD7400035399 /* utilitiesCell.swift */,
-				DA994FBD2AD7CBFE00035399 /* SchoolResult.swift */,
+				DA994FC32AD8061A00035399 /* deligate */,
+				DA994FC42AD8063B00035399 /* ccell */,
+				DA994FC52AD8064E00035399 /* viewControler */,
 				DA994F952AD7ABD000035399 /* Main.storyboard */,
-				DA994FBF2AD7CC3900035399 /* SquareorHour.swift */,
-				DA994FB92AD7CBA700035399 /* EMI.swift */,
-				DA994FB72AD7CB7600035399 /* Discount.swift */,
-				DA994FB52AD7CB4400035399 /* Interest.swift */,
-				DA994FB32AD7CB2100035399 /* MutualFund.swift */,
-				DA994FA32AD7BAE800035399 /* CalculationUtilities.swift */,
-				DA994F932AD7ABD000035399 /* StartingPage.swift */,
 				DA994F982AD7ABD100035399 /* Assets.xcassets */,
 				DA994F9A2AD7ABD100035399 /* LaunchScreen.storyboard */,
 				DA994F9D2AD7ABD100035399 /* Info.plist */,
 			);
 			path = "Master Calculation";
+			sourceTree = "<group>";
+		};
+		DA994FC32AD8061A00035399 /* deligate */ = {
+			isa = PBXGroup;
+			children = (
+				DA994FAB2AD7C1E800035399 /* AppDelegate.swift */,
+				DA994FAD2AD7C1FD00035399 /* SceneDelegate.swift */,
+			);
+			path = deligate;
+			sourceTree = "<group>";
+		};
+		DA994FC42AD8063B00035399 /* ccell */ = {
+			isa = PBXGroup;
+			children = (
+				DA994FA52AD7BD7400035399 /* utilitiesCell.swift */,
+			);
+			path = ccell;
+			sourceTree = "<group>";
+		};
+		DA994FC52AD8064E00035399 /* viewControler */ = {
+			isa = PBXGroup;
+			children = (
+				DA994FC12AD802F400035399 /* aboutPage.swift */,
+				DA994FBF2AD7CC3900035399 /* SquareorHour.swift */,
+				DA994FB52AD7CB4400035399 /* Interest.swift */,
+				DA994FB32AD7CB2100035399 /* MutualFund.swift */,
+				DA994FA32AD7BAE800035399 /* CalculationUtilities.swift */,
+				DA994F932AD7ABD000035399 /* StartingPage.swift */,
+				DA994FB92AD7CBA700035399 /* EMI.swift */,
+				DA994FB72AD7CB7600035399 /* Discount.swift */,
+				DA994FBD2AD7CBFE00035399 /* SchoolResult.swift */,
+			);
+			path = viewControler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
